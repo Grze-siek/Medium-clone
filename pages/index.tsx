@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
 import Header from '../components/Header';
-import { sanityClient, urlFor } from '../sanity';
+import { sanityClient, urlFor } from '../lib/sanity';
 import { Post } from '../typings';
 
 interface Props {

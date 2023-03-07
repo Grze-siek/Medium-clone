@@ -1,6 +1,6 @@
 import { GetStaticProps } from 'next';
 import Header from '../../components/Header';
-import { sanityClient, urlFor } from '../../sanity';
+import { sanityClient, urlFor } from '../../lib/sanity';
 import sanityCli from '../../sanity/sanity.cli';
 import { Post } from '../../typings';
 import PortableText from 'react-portable-text';
